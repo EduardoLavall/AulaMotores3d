@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Eduardo/Estação de metrô
+C:/Users/Eduardo/Desktop/unity/AulaMotores3d/Estação de metrô
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61574
-Successfully changed project path to: C:/Users/Eduardo/Estação de metrô
-C:/Users/Eduardo/Estação de metrô
+51272
+Successfully changed project path to: C:/Users/Eduardo/Desktop/unity/AulaMotores3d/Estação de metrô
+C:/Users/Eduardo/Desktop/unity/AulaMotores3d/Estação de metrô
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/Eduardo/Estação de metrô
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24884] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 2111949401 [EditorId] 2111949401 [Version] 1048832 [Id] WindowsEditor(7,ED-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22068] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 2137496944 [EditorId] 2137496944 [Version] 1048832 [Id] WindowsEditor(7,ED-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24884] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 2111949401 [EditorId] 2111949401 [Version] 1048832 [Id] WindowsEditor(7,ED-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22068] Host "[IP] 192.168.100.5 [Port] 0 [Flags] 2 [Guid] 2137496944 [EditorId] 2137496944 [Version] 1048832 [Id] WindowsEditor(7,ED-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 71.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Eduardo/Estação de metrô/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Eduardo/Desktop/unity/AulaMotores3d/Estação de metrô/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009710 seconds.
+Registered in 0.010305 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.594 seconds
+- Completed reload, in  0.833 seconds
 Domain Reload Profiling:
-	ReloadAssembly (594ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (837ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (405ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (237ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (416ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005788 seconds.
+Registered in 0.013005 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Eduardo\Estação de metrô\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Eduardo\Estação de metrô\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Eduardo\Desktop\unity\AulaMotores3d\Estação de metrô\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Eduardo\Desktop\unity\AulaMotores3d\Estação de metrô\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
+- Completed reload, in  1.284 seconds
 Domain Reload Profiling:
-	ReloadAssembly (950ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1285ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (723ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (964ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
+			SetupTypeCache (308ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (325ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (411ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (193.8 KB). Loaded Objects now: 3508.
-Memory consumption went from 109.9 MB to 109.8 MB.
-Total: 5.212800 ms (FindLiveObjects: 0.666300 ms CreateObjectMapping: 0.300700 ms MarkObjects: 4.006700 ms  DeleteObjects: 0.237300 ms)
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (193.4 KB). Loaded Objects now: 3512.
+Memory consumption went from 110.1 MB to 109.9 MB.
+Total: 7.272900 ms (FindLiveObjects: 0.750800 ms CreateObjectMapping: 1.103000 ms MarkObjects: 5.182800 ms  DeleteObjects: 0.235000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,65 +166,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 177791.146430 seconds.
-  path: Assets/UnityPrefabs/43-train/Train.obj
-  artifactKey: Guid(5bc00afc853bcf64189bf6acb75bf808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/43-train/Train.obj using Guid(5bc00afc853bcf64189bf6acb75bf808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb9ea8ec2ba541311385bb42f483254') in 0.936769 seconds 
+  Time since last request: 274519.949607 seconds.
+  path: Assets/Personagem.cs
+  artifactKey: Guid(d34c4daba2475e14e86f3722a73a6188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personagem.cs using Guid(d34c4daba2475e14e86f3722a73a6188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0490210873ce2a9bf9d0f57837452c28') in 0.031499 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 29.497893 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/ChaoNormalmap.png
-  artifactKey: Guid(c4ea4f569025f854681bd6f956c677c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/ChaoNormalmap.png using Guid(c4ea4f569025f854681bd6f956c677c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287e9b450c3da5f71ed45c2e6693ff2f') in 0.035675 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006269 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Eduardo\Desktop\unity\AulaMotores3d\Estação de metrô\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Eduardo\Desktop\unity\AulaMotores3d\Estação de metrô\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1095ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (159.7 KB). Loaded Objects now: 3515.
+Memory consumption went from 110.0 MB to 109.8 MB.
+Total: 3.557100 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.194900 ms MarkObjects: 2.923800 ms  DeleteObjects: 0.171600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/TetoNormalmap.png
-  artifactKey: Guid(6b0f79f975807db4bad6dfbf7e7e7900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/TetoNormalmap.png using Guid(6b0f79f975807db4bad6dfbf7e7e7900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a6063d8be3272c03998bba47939212') in 0.020528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/Painel.png
-  artifactKey: Guid(5e9a8a0eeb11a3447833fd69f16191fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/Painel.png using Guid(5e9a8a0eeb11a3447833fd69f16191fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57815ba7ac2e1d9edb24f599c27118a3') in 0.026854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/PilarTrilhos.png
-  artifactKey: Guid(b85f9179af0a71f4d92f07add0b7e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/PilarTrilhos.png using Guid(b85f9179af0a71f4d92f07add0b7e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327fb88552f8b148e660b97d4e6175a6') in 0.029167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/PilarNormalmap.png
-  artifactKey: Guid(5c6c4e1bb829bea4899244d5f4891453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/PilarNormalmap.png using Guid(5c6c4e1bb829bea4899244d5f4891453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e3af83f708932b8aca7dcc8a352d4a') in 0.028987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/Trilho.png
-  artifactKey: Guid(f7c447f3a69d1334a9a7f7dfd08c4049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/Trilho.png using Guid(f7c447f3a69d1334a9a7f7dfd08c4049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbec3229b5a06de0cb4d81b8c60691a') in 0.025617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/Parede.png
-  artifactKey: Guid(ea4a37d49a951ef4a81f674e1abadf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/Parede.png using Guid(ea4a37d49a951ef4a81f674e1abadf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d733721c22f2a9624307971f36cc6c7') in 0.024303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/TetoTrilhos.png
-  artifactKey: Guid(9f06fb3b334bac04998b88c0be755e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/TetoTrilhos.png using Guid(9f06fb3b334bac04998b88c0be755e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c12018c32f175f66818d8e0f638ae2f') in 0.021216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UnityPrefabs/Est.Metro/TetoTrilhosNormalmap.png
-  artifactKey: Guid(423fbe4e93d5bc6479b1f36be2a1c842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityPrefabs/Est.Metro/TetoTrilhosNormalmap.png using Guid(423fbe4e93d5bc6479b1f36be2a1c842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d29502c8c664f4f0cc2f83d19bfea64') in 0.022930 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005178 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Eduardo\Desktop\unity\AulaMotores3d\Estação de metrô\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Eduardo\Desktop\unity\AulaMotores3d\Estação de metrô\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (159.8 KB). Loaded Objects now: 3518.
+Memory consumption went from 110.0 MB to 109.8 MB.
+Total: 3.536200 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.082100 ms MarkObjects: 2.662200 ms  DeleteObjects: 0.524200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
